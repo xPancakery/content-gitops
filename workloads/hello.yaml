@@ -16,4 +16,4 @@ spec:
         spec:
           containers:
           - name: hello
-            image: ${{ secret.DOCKER_USERNAME }}/gitops:hellov1.0
+            image: ${{ secret.DOCKER_USERNAME }}/gitops:hellov1.1
